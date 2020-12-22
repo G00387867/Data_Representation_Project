@@ -4,17 +4,17 @@
 
 #### This repository contains a  basic Flask Server with the following:
 
-- REST API, that performs CRUD operations which can be found [**HERE**](https://github.com/G00387867/Data_Representation_Project/blob/main/rest_server.py)
+- A **REST API** that performs CRUD operations which can be found [**HERE**](https://github.com/G00387867/Data_Representation_Project/blob/main/rest_server.py)
 
-- A database table which is hosted on a WAMP Server and connected through DAO [**HERE**](https://github.com/G00387867/Data_Representation_Project/blob/main/StockDAO.py)
+- A database table which is hosted on a WAMP Server and connected through **DAO** [**HERE**](https://github.com/G00387867/Data_Representation_Project/blob/main/StockDAO.py)
 
-- A web interface using AJAX calls to perform the CRUD operations [**HERE**](https://github.com/G00387867/Data_Representation_Project/blob/main/staticpages/index.html)
+- A **web interface** using AJAX calls to perform the CRUD operations [**HERE**](https://github.com/G00387867/Data_Representation_Project/blob/main/staticpages/index.html)
 
 - A **initdb.sql** file that has a create command for my table [**HERE**](https://github.com/G00387867/Data_Representation_Project/blob/main/initdb.sql)
 
-- A requirements file for the virtual environment [**HERE**](https://github.com/G00387867/Data_Representation_Project/blob/main/requirements.txt)
+- A **requirements** file for the **virtual environment** [**HERE**](https://github.com/G00387867/Data_Representation_Project/blob/main/requirements.txt)
 
-- A Configuration file [**HERE**](https://github.com/G00387867/Data_Representation_Project/blob/main/dbconfig.py)
+- A **Configuration** file [**HERE**](https://github.com/G00387867/Data_Representation_Project/blob/main/dbconfig.py)
 
 - The server is hosted on **Pythonanywhere** through this [**link**](http://g00387867.pythonanywhere.com/)
 
