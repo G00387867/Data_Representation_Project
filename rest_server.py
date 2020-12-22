@@ -1,22 +1,16 @@
-from flask import Flask, url_for, request, redirect, abort, jsonify
+from flask import Flask, url_for, request, redirect, abort, jsonify, session
 from StockDAO import stockDAO
 
-app = Flask(__name__, static_url_path="", static_folder="staticpages")
+app = Flask(__name__, 
+static_url_path="", 
+static_folder="staticpages")
 
-# @app.route('/user/<username>')
-# @app.route('/user/<int:post_id>')
-# @app.route('/user', methods = ['GET', 'POST'])
 
-# stocks=[
-    # {"id":1, "item":"shirt", "category": "clothing", "price":1500},
-    # {"id":2, "item":"Calvin Klein", "category": "perfume", "price": 2000},
-    # {"id":3, "item":"Python made easy", "category": "books", "price": 1500}
-# ]
-# nextId = 4
 
 @app.route("/")
 def index():
-  return ("Welcome to stock manager")
+  return ()
+
 
 # get all 
 # curl "http://127.0.0.1:5000/stocks"

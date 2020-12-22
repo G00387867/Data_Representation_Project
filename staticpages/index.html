@@ -6,8 +6,10 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     </head>
     <body>
+
         <h1>Stocks</h1>
-        <div> <button id="showCreateButton" onclick="showCreate()">Create</button></div>
+        <div> <button class="btn btn-primary btn-block btn-large" id="showCreateButton" onclick="showCreate()">Create</button></div>
+        
         <div>
             <table class="table" id="stockTable">
                 <tr>
@@ -64,7 +66,7 @@
 
 
         var rowElement = buttonElement.parentNode.parentNode
-        // these is a way of finding the closest <tr> which would safer, closest()
+       
         
         var stocks = getStockFromRow(rowElement)
         populateFormWithStock(stocks)
@@ -111,9 +113,9 @@
         var cell4 = rowElement.insertCell(3);
         cell4.innerHTML = stocks.price
         var cell5 = rowElement.insertCell(4);
-        cell5.innerHTML = '<button onclick="showUpdate(this)">Update</button>'
+        cell5.innerHTML = '<button class="btn btn-primary btn-block btn-large" onclick="showUpdate(this)">Update</button>'
         var cell6 = rowElement.insertCell(5);
-        cell6.innerHTML = '<button onclick=doDelete(this)>delete</button>'
+        cell6.innerHTML = '<button class="btn btn-primary btn-block btn-large" onclick=doDelete(this)>Delete</button>'
 
     }
 
