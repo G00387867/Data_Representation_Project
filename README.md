@@ -12,3 +12,6 @@
 
 The server is hosted on **Pythonanywhere** through this [**link**](http://g00387867.pythonanywhere.com/)
 
+***
+#### License
+This repository was enrolled under MIT license. Please click [here](https://github.com/G00387867/Data_Representation_Project/blob/main/LICENSE) for further information.
